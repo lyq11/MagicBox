@@ -2,7 +2,7 @@
 //  MagicBoxUITests.swift
 //  MagicBoxUITests
 //
-//  Created by 洋岐刘 on 16/2/17.
+//  Created by 洋岐刘 on 16/2/18.
 //  Copyright © 2016年 洋岐刘. All rights reserved.
 //
 

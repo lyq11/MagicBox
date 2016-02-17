@@ -7,64 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80D4ACB1C74CFA90031152D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D4ACA1C74CFA90031152D /* AppDelegate.swift */; };
-		A80D4ACD1C74CFAA0031152D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D4ACC1C74CFAA0031152D /* ViewController.swift */; };
-		A80D4AD01C74CFAA0031152D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80D4ACE1C74CFAA0031152D /* Main.storyboard */; };
-		A80D4AD21C74CFAA0031152D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80D4AD11C74CFAA0031152D /* Assets.xcassets */; };
-		A80D4AD51C74CFAA0031152D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80D4AD31C74CFAA0031152D /* LaunchScreen.storyboard */; };
-		A80D4AE01C74CFAA0031152D /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D4ADF1C74CFAA0031152D /* MagicBoxTests.swift */; };
-		A80D4AEB1C74CFAA0031152D /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D4AEA1C74CFAA0031152D /* MagicBoxUITests.swift */; };
+		38E31533D1F838AB5964B262 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BB7414402FF9179641ED8D /* libPods.a */; };
+		A8A5CC0C1C74DDFE00AE32D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5CC0B1C74DDFE00AE32D5 /* AppDelegate.swift */; };
+		A8A5CC0E1C74DDFE00AE32D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5CC0D1C74DDFE00AE32D5 /* ViewController.swift */; };
+		A8A5CC111C74DDFE00AE32D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A5CC0F1C74DDFE00AE32D5 /* Main.storyboard */; };
+		A8A5CC131C74DDFE00AE32D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A5CC121C74DDFE00AE32D5 /* Assets.xcassets */; };
+		A8A5CC161C74DDFE00AE32D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A5CC141C74DDFE00AE32D5 /* LaunchScreen.storyboard */; };
+		A8A5CC211C74DDFE00AE32D5 /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5CC201C74DDFE00AE32D5 /* MagicBoxTests.swift */; };
+		A8A5CC2C1C74DDFE00AE32D5 /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A5CC2B1C74DDFE00AE32D5 /* MagicBoxUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A80D4ADC1C74CFAA0031152D /* PBXContainerItemProxy */ = {
+		A8A5CC1D1C74DDFE00AE32D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A80D4ABF1C74CFA90031152D /* Project object */;
+			containerPortal = A8A5CC001C74DDFE00AE32D5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A80D4AC61C74CFA90031152D;
+			remoteGlobalIDString = A8A5CC071C74DDFE00AE32D5;
 			remoteInfo = MagicBox;
 		};
-		A80D4AE71C74CFAA0031152D /* PBXContainerItemProxy */ = {
+		A8A5CC281C74DDFE00AE32D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A80D4ABF1C74CFA90031152D /* Project object */;
+			containerPortal = A8A5CC001C74DDFE00AE32D5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A80D4AC61C74CFA90031152D;
+			remoteGlobalIDString = A8A5CC071C74DDFE00AE32D5;
 			remoteInfo = MagicBox;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A80D4AC71C74CFA90031152D /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80D4ACA1C74CFA90031152D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A80D4ACC1C74CFAA0031152D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A80D4ACF1C74CFAA0031152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A80D4AD11C74CFAA0031152D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A80D4AD41C74CFAA0031152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A80D4AD61C74CFAA0031152D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80D4ADB1C74CFAA0031152D /* MagicBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80D4ADF1C74CFAA0031152D /* MagicBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxTests.swift; sourceTree = "<group>"; };
-		A80D4AE11C74CFAA0031152D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80D4AE61C74CFAA0031152D /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80D4AEA1C74CFAA0031152D /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
-		A80D4AEC1C74CFAA0031152D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE6C01CD48047877BEDCF19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		82BB7414402FF9179641ED8D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		931ECE6287743919EBBBA918 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8A5CC081C74DDFE00AE32D5 /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A5CC0B1C74DDFE00AE32D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8A5CC0D1C74DDFE00AE32D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8A5CC101C74DDFE00AE32D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8A5CC121C74DDFE00AE32D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8A5CC151C74DDFE00AE32D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8A5CC171C74DDFE00AE32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A5CC1C1C74DDFE00AE32D5 /* MagicBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A5CC201C74DDFE00AE32D5 /* MagicBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxTests.swift; sourceTree = "<group>"; };
+		A8A5CC221C74DDFE00AE32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A5CC271C74DDFE00AE32D5 /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A5CC2B1C74DDFE00AE32D5 /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
+		A8A5CC2D1C74DDFE00AE32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A80D4AC41C74CFA90031152D /* Frameworks */ = {
+		A8A5CC051C74DDFE00AE32D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E31533D1F838AB5964B262 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A5CC191C74DDFE00AE32D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80D4AD81C74CFAA0031152D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A80D4AE31C74CFAA0031152D /* Frameworks */ = {
+		A8A5CC241C74DDFE00AE32D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +79,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A80D4ABE1C74CFA90031152D = {
+		A17372E8A6C515CA649942BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A80D4AC91C74CFA90031152D /* MagicBox */,
-				A80D4ADE1C74CFAA0031152D /* MagicBoxTests */,
-				A80D4AE91C74CFAA0031152D /* MagicBoxUITests */,
-				A80D4AC81C74CFA90031152D /* Products */,
+				82BB7414402FF9179641ED8D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8A5CBFF1C74DDFE00AE32D5 = {
+			isa = PBXGroup;
+			children = (
+				A8A5CC0A1C74DDFE00AE32D5 /* MagicBox */,
+				A8A5CC1F1C74DDFE00AE32D5 /* MagicBoxTests */,
+				A8A5CC2A1C74DDFE00AE32D5 /* MagicBoxUITests */,
+				A8A5CC091C74DDFE00AE32D5 /* Products */,
+				DC2530A9918B61BF64D3E149 /* Pods */,
+				A17372E8A6C515CA649942BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A80D4AC81C74CFA90031152D /* Products */ = {
+		A8A5CC091C74DDFE00AE32D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A80D4AC71C74CFA90031152D /* MagicBox.app */,
-				A80D4ADB1C74CFAA0031152D /* MagicBoxTests.xctest */,
-				A80D4AE61C74CFAA0031152D /* MagicBoxUITests.xctest */,
+				A8A5CC081C74DDFE00AE32D5 /* MagicBox.app */,
+				A8A5CC1C1C74DDFE00AE32D5 /* MagicBoxTests.xctest */,
+				A8A5CC271C74DDFE00AE32D5 /* MagicBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A80D4AC91C74CFA90031152D /* MagicBox */ = {
+		A8A5CC0A1C74DDFE00AE32D5 /* MagicBox */ = {
 			isa = PBXGroup;
 			children = (
-				A80D4ACA1C74CFA90031152D /* AppDelegate.swift */,
-				A80D4ACC1C74CFAA0031152D /* ViewController.swift */,
-				A80D4ACE1C74CFAA0031152D /* Main.storyboard */,
-				A80D4AD11C74CFAA0031152D /* Assets.xcassets */,
-				A80D4AD31C74CFAA0031152D /* LaunchScreen.storyboard */,
-				A80D4AD61C74CFAA0031152D /* Info.plist */,
+				A8A5CC0B1C74DDFE00AE32D5 /* AppDelegate.swift */,
+				A8A5CC0D1C74DDFE00AE32D5 /* ViewController.swift */,
+				A8A5CC0F1C74DDFE00AE32D5 /* Main.storyboard */,
+				A8A5CC121C74DDFE00AE32D5 /* Assets.xcassets */,
+				A8A5CC141C74DDFE00AE32D5 /* LaunchScreen.storyboard */,
+				A8A5CC171C74DDFE00AE32D5 /* Info.plist */,
 			);
 			path = MagicBox;
 			sourceTree = "<group>";
 		};
-		A80D4ADE1C74CFAA0031152D /* MagicBoxTests */ = {
+		A8A5CC1F1C74DDFE00AE32D5 /* MagicBoxTests */ = {
 			isa = PBXGroup;
 			children = (
-				A80D4ADF1C74CFAA0031152D /* MagicBoxTests.swift */,
-				A80D4AE11C74CFAA0031152D /* Info.plist */,
+				A8A5CC201C74DDFE00AE32D5 /* MagicBoxTests.swift */,
+				A8A5CC221C74DDFE00AE32D5 /* Info.plist */,
 			);
 			path = MagicBoxTests;
 			sourceTree = "<group>";
 		};
-		A80D4AE91C74CFAA0031152D /* MagicBoxUITests */ = {
+		A8A5CC2A1C74DDFE00AE32D5 /* MagicBoxUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A80D4AEA1C74CFAA0031152D /* MagicBoxUITests.swift */,
-				A80D4AEC1C74CFAA0031152D /* Info.plist */,
+				A8A5CC2B1C74DDFE00AE32D5 /* MagicBoxUITests.swift */,
+				A8A5CC2D1C74DDFE00AE32D5 /* Info.plist */,
 			);
 			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+		DC2530A9918B61BF64D3E149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE6C01CD48047877BEDCF19 /* Pods.debug.xcconfig */,
+				931ECE6287743919EBBBA918 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A80D4AC61C74CFA90031152D /* MagicBox */ = {
+		A8A5CC071C74DDFE00AE32D5 /* MagicBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A80D4AEF1C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBox" */;
+			buildConfigurationList = A8A5CC301C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBox" */;
 			buildPhases = (
-				A80D4AC31C74CFA90031152D /* Sources */,
-				A80D4AC41C74CFA90031152D /* Frameworks */,
-				A80D4AC51C74CFA90031152D /* Resources */,
+				A4A87CBAAB3D30ACEA7F6D81 /* Check Pods Manifest.lock */,
+				A8A5CC041C74DDFE00AE32D5 /* Sources */,
+				A8A5CC051C74DDFE00AE32D5 /* Frameworks */,
+				A8A5CC061C74DDFE00AE32D5 /* Resources */,
+				01785A021F4AE51C80ACDAD6 /* Embed Pods Frameworks */,
+				633852E19CDF0F3CEA8B913A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +169,72 @@
 			);
 			name = MagicBox;
 			productName = MagicBox;
-			productReference = A80D4AC71C74CFA90031152D /* MagicBox.app */;
+			productReference = A8A5CC081C74DDFE00AE32D5 /* MagicBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A80D4ADA1C74CFAA0031152D /* MagicBoxTests */ = {
+		A8A5CC1B1C74DDFE00AE32D5 /* MagicBoxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A80D4AF21C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBoxTests" */;
+			buildConfigurationList = A8A5CC331C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */;
 			buildPhases = (
-				A80D4AD71C74CFAA0031152D /* Sources */,
-				A80D4AD81C74CFAA0031152D /* Frameworks */,
-				A80D4AD91C74CFAA0031152D /* Resources */,
+				A8A5CC181C74DDFE00AE32D5 /* Sources */,
+				A8A5CC191C74DDFE00AE32D5 /* Frameworks */,
+				A8A5CC1A1C74DDFE00AE32D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A80D4ADD1C74CFAA0031152D /* PBXTargetDependency */,
+				A8A5CC1E1C74DDFE00AE32D5 /* PBXTargetDependency */,
 			);
 			name = MagicBoxTests;
 			productName = MagicBoxTests;
-			productReference = A80D4ADB1C74CFAA0031152D /* MagicBoxTests.xctest */;
+			productReference = A8A5CC1C1C74DDFE00AE32D5 /* MagicBoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A80D4AE51C74CFAA0031152D /* MagicBoxUITests */ = {
+		A8A5CC261C74DDFE00AE32D5 /* MagicBoxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A80D4AF51C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */;
+			buildConfigurationList = A8A5CC361C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */;
 			buildPhases = (
-				A80D4AE21C74CFAA0031152D /* Sources */,
-				A80D4AE31C74CFAA0031152D /* Frameworks */,
-				A80D4AE41C74CFAA0031152D /* Resources */,
+				A8A5CC231C74DDFE00AE32D5 /* Sources */,
+				A8A5CC241C74DDFE00AE32D5 /* Frameworks */,
+				A8A5CC251C74DDFE00AE32D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A80D4AE81C74CFAA0031152D /* PBXTargetDependency */,
+				A8A5CC291C74DDFE00AE32D5 /* PBXTargetDependency */,
 			);
 			name = MagicBoxUITests;
 			productName = MagicBoxUITests;
-			productReference = A80D4AE61C74CFAA0031152D /* MagicBoxUITests.xctest */;
+			productReference = A8A5CC271C74DDFE00AE32D5 /* MagicBoxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A80D4ABF1C74CFA90031152D /* Project object */ = {
+		A8A5CC001C74DDFE00AE32D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "洋岐刘";
 				TargetAttributes = {
-					A80D4AC61C74CFA90031152D = {
-						CreatedOnToolsVersion = 7.1.1;
+					A8A5CC071C74DDFE00AE32D5 = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 96BU8XKJXD;
 					};
-					A80D4ADA1C74CFAA0031152D = {
-						CreatedOnToolsVersion = 7.1.1;
+					A8A5CC1B1C74DDFE00AE32D5 = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 96BU8XKJXD;
-						TestTargetID = A80D4AC61C74CFA90031152D;
+						TestTargetID = A8A5CC071C74DDFE00AE32D5;
 					};
-					A80D4AE51C74CFAA0031152D = {
-						CreatedOnToolsVersion = 7.1.1;
+					A8A5CC261C74DDFE00AE32D5 = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 96BU8XKJXD;
-						TestTargetID = A80D4AC61C74CFA90031152D;
+						TestTargetID = A8A5CC071C74DDFE00AE32D5;
 					};
 				};
 			};
-			buildConfigurationList = A80D4AC21C74CFA90031152D /* Build configuration list for PBXProject "MagicBox" */;
+			buildConfigurationList = A8A5CC031C74DDFE00AE32D5 /* Build configuration list for PBXProject "MagicBox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +242,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A80D4ABE1C74CFA90031152D;
-			productRefGroup = A80D4AC81C74CFA90031152D /* Products */;
+			mainGroup = A8A5CBFF1C74DDFE00AE32D5;
+			productRefGroup = A8A5CC091C74DDFE00AE32D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A80D4AC61C74CFA90031152D /* MagicBox */,
-				A80D4ADA1C74CFAA0031152D /* MagicBoxTests */,
-				A80D4AE51C74CFAA0031152D /* MagicBoxUITests */,
+				A8A5CC071C74DDFE00AE32D5 /* MagicBox */,
+				A8A5CC1B1C74DDFE00AE32D5 /* MagicBoxTests */,
+				A8A5CC261C74DDFE00AE32D5 /* MagicBoxUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A80D4AC51C74CFA90031152D /* Resources */ = {
+		A8A5CC061C74DDFE00AE32D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80D4AD51C74CFAA0031152D /* LaunchScreen.storyboard in Resources */,
-				A80D4AD21C74CFAA0031152D /* Assets.xcassets in Resources */,
-				A80D4AD01C74CFAA0031152D /* Main.storyboard in Resources */,
+				A8A5CC161C74DDFE00AE32D5 /* LaunchScreen.storyboard in Resources */,
+				A8A5CC131C74DDFE00AE32D5 /* Assets.xcassets in Resources */,
+				A8A5CC111C74DDFE00AE32D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80D4AD91C74CFAA0031152D /* Resources */ = {
+		A8A5CC1A1C74DDFE00AE32D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80D4AE41C74CFAA0031152D /* Resources */ = {
+		A8A5CC251C74DDFE00AE32D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,60 +281,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01785A021F4AE51C80ACDAD6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633852E19CDF0F3CEA8B913A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A87CBAAB3D30ACEA7F6D81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A80D4AC31C74CFA90031152D /* Sources */ = {
+		A8A5CC041C74DDFE00AE32D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80D4ACD1C74CFAA0031152D /* ViewController.swift in Sources */,
-				A80D4ACB1C74CFA90031152D /* AppDelegate.swift in Sources */,
+				A8A5CC0E1C74DDFE00AE32D5 /* ViewController.swift in Sources */,
+				A8A5CC0C1C74DDFE00AE32D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80D4AD71C74CFAA0031152D /* Sources */ = {
+		A8A5CC181C74DDFE00AE32D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80D4AE01C74CFAA0031152D /* MagicBoxTests.swift in Sources */,
+				A8A5CC211C74DDFE00AE32D5 /* MagicBoxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80D4AE21C74CFAA0031152D /* Sources */ = {
+		A8A5CC231C74DDFE00AE32D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80D4AEB1C74CFAA0031152D /* MagicBoxUITests.swift in Sources */,
+				A8A5CC2C1C74DDFE00AE32D5 /* MagicBoxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A80D4ADD1C74CFAA0031152D /* PBXTargetDependency */ = {
+		A8A5CC1E1C74DDFE00AE32D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A80D4AC61C74CFA90031152D /* MagicBox */;
-			targetProxy = A80D4ADC1C74CFAA0031152D /* PBXContainerItemProxy */;
+			target = A8A5CC071C74DDFE00AE32D5 /* MagicBox */;
+			targetProxy = A8A5CC1D1C74DDFE00AE32D5 /* PBXContainerItemProxy */;
 		};
-		A80D4AE81C74CFAA0031152D /* PBXTargetDependency */ = {
+		A8A5CC291C74DDFE00AE32D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A80D4AC61C74CFA90031152D /* MagicBox */;
-			targetProxy = A80D4AE71C74CFAA0031152D /* PBXContainerItemProxy */;
+			target = A8A5CC071C74DDFE00AE32D5 /* MagicBox */;
+			targetProxy = A8A5CC281C74DDFE00AE32D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A80D4ACE1C74CFAA0031152D /* Main.storyboard */ = {
+		A8A5CC0F1C74DDFE00AE32D5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A80D4ACF1C74CFAA0031152D /* Base */,
+				A8A5CC101C74DDFE00AE32D5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A80D4AD31C74CFAA0031152D /* LaunchScreen.storyboard */ = {
+		A8A5CC141C74DDFE00AE32D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A80D4AD41C74CFAA0031152D /* Base */,
+				A8A5CC151C74DDFE00AE32D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +390,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A80D4AED1C74CFAA0031152D /* Debug */ = {
+		A8A5CC2E1C74DDFE00AE32D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -359,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		A80D4AEE1C74CFAA0031152D /* Release */ = {
+		A8A5CC2F1C74DDFE00AE32D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,15 +464,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A80D4AF01C74CFAA0031152D /* Debug */ = {
+		A8A5CC311C74DDFE00AE32D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE6C01CD48047877BEDCF19 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicBox/Info.plist;
@@ -407,8 +483,9 @@
 			};
 			name = Debug;
 		};
-		A80D4AF11C74CFAA0031152D /* Release */ = {
+		A8A5CC321C74DDFE00AE32D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931ECE6287743919EBBBA918 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicBox/Info.plist;
@@ -418,7 +495,7 @@
 			};
 			name = Release;
 		};
-		A80D4AF31C74CFAA0031152D /* Debug */ = {
+		A8A5CC341C74DDFE00AE32D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -430,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		A80D4AF41C74CFAA0031152D /* Release */ = {
+		A8A5CC351C74DDFE00AE32D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,7 +519,7 @@
 			};
 			name = Release;
 		};
-		A80D4AF61C74CFAA0031152D /* Debug */ = {
+		A8A5CC371C74DDFE00AE32D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
@@ -454,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		A80D4AF71C74CFAA0031152D /* Release */ = {
+		A8A5CC381C74DDFE00AE32D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
@@ -469,40 +546,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A80D4AC21C74CFA90031152D /* Build configuration list for PBXProject "MagicBox" */ = {
+		A8A5CC031C74DDFE00AE32D5 /* Build configuration list for PBXProject "MagicBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A80D4AED1C74CFAA0031152D /* Debug */,
-				A80D4AEE1C74CFAA0031152D /* Release */,
+				A8A5CC2E1C74DDFE00AE32D5 /* Debug */,
+				A8A5CC2F1C74DDFE00AE32D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A80D4AEF1C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBox" */ = {
+		A8A5CC301C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A80D4AF01C74CFAA0031152D /* Debug */,
-				A80D4AF11C74CFAA0031152D /* Release */,
+				A8A5CC311C74DDFE00AE32D5 /* Debug */,
+				A8A5CC321C74DDFE00AE32D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A80D4AF21C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBoxTests" */ = {
+		A8A5CC331C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A80D4AF31C74CFAA0031152D /* Debug */,
-				A80D4AF41C74CFAA0031152D /* Release */,
+				A8A5CC341C74DDFE00AE32D5 /* Debug */,
+				A8A5CC351C74DDFE00AE32D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A80D4AF51C74CFAA0031152D /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */ = {
+		A8A5CC361C74DDFE00AE32D5 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A80D4AF61C74CFAA0031152D /* Debug */,
-				A80D4AF71C74CFAA0031152D /* Release */,
+				A8A5CC371C74DDFE00AE32D5 /* Debug */,
+				A8A5CC381C74DDFE00AE32D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A80D4ABF1C74CFA90031152D /* Project object */;
+	rootObject = A8A5CC001C74DDFE00AE32D5 /* Project object */;
 }

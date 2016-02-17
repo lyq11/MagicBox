@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Cordova (3.9.1)
+  - GCJSONKit (1.5.0)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - AFNetworking (> 0)
+  - Cordova (> 0)
+  - GCJSONKit (> 0)
+  - SVProgressHUD (> 0)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Cordova: f8142a2cb0072f5225e865fc5660f174cc0674a5
+  GCJSONKit: 8ad0067945efd217af8e610fa09ca0d02283b36b
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.39.0
